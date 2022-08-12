@@ -1,0 +1,46 @@
+site_name: TMW Docs
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  features:
+    - navigation.tabs
+
+plugins:
+  - glightbox
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Vendors:
+    - Samsung:
+      - General: vendors/samsung/index.md
+
+      - Modes:
+        - 'Download Mode': vendors/samsung/modes/download.md
+        - 'UART Mode': vendors/samsung/modes/uart.md
+        - 'Upload Mode': vendors/samsung/modes/upload.md
+
+      - Partitions:
+        - Param: vendors/samsung/partitions/param.md
+
+  - Resources:
+    - General: resources/general.md
+    - MTK: resources/mtk.md
+    - Samsung: resources/samsung.md
+
+  - Changelog: changelog.md
+  - Contributors: contributors.md
