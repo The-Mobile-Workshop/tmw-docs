@@ -1,5 +1,5 @@
 # Upload Mode
-![Power Reset or Unknown Upload Mode](../../../assets/images/samsung/up-mode/upModeExample.png){ width="256", align=right }
+![Power Reset or Unknown Upload Mode](../../../../assets/images/samsung/up-mode/upModeExample.png){ width="256", align=right }
 
 ## What is it? Where is it used for?
 Upload mode is a mode we unfortunatly don't know too much about yet. However we do know it can be triggered by anything from a power reset to a crash of a certain thing on your device.

@@ -28,11 +28,13 @@ nav:
   - Vendors:
     - Samsung:
       - General: vendors/samsung/index.md
-
-      - Modes:
-        - 'Download Mode': vendors/samsung/modes/download.md
-        - 'UART Mode': vendors/samsung/modes/uart.md
-        - 'Upload Mode': vendors/samsung/modes/upload.md
+      
+      - 'Bootloader':
+        - 'Boot Jig': vendors/samsung/bootloader/jig.md
+        - Modes:
+          - 'Download Mode': vendors/samsung/bootloader/modes/download.md
+          - 'UART Mode': vendors/samsung/bootloader/modes/uart.md
+          - 'Upload Mode': vendors/samsung/bootloader/modes/upload.md
 
       - Partitions:
         - Param: vendors/samsung/partitions/param.md
